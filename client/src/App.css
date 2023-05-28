@@ -1,0 +1,66 @@
+.remove-btn{
+  margin-right: 0.5rem;
+}
+
+.fade-enter{
+  opacity: 0.01;
+}
+
+.fade-enter-active{
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.fade-exit{
+  opacity: 1;
+}
+
+.fade-exit-active{
+  opacity: 0.01;
+  transition: opacity 1000ms ease-in;
+}
+
+/*navbar css */
+.my-navbar {
+  font-family:"Poppins",sans-serif;
+  font-size:20px;
+  box-shadow: 0 3px 3px rgb(202, 201, 201);
+  
+}
+
+.my-navbar .nav-item {
+  margin-right: 20px;
+}
+
+.banner{
+  width:600px;
+  height:580px;
+  
+}
+.slogan{
+  margin-right:100px
+}
+.slogan h1 {
+  font-size:3.2rem;
+  font-weight:600;
+  margin-top:1rem;
+  margin-bottom:2rem;
+}
+.slogan h1 .highlight{
+  color:#E3B189;
+}
+.slogan p{
+  font-size:1.5rem;
+  line-height:2rem
+}
+.shop_btn{
+  border:none;
+  outline:none;
+  margin-top:40px;
+  padding:8px 20px;
+  border-radius:5px;
+  background:#E3B189;
+  font-size:1.4rem;
+  font-weight: 500;
+}
+.list{margin-left:20px}
