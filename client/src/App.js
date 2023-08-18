@@ -10,8 +10,6 @@ import ProductDetails from './components/ProductDetails';
 function App() {
   const [isPressed,setIsPressed]=useState(false)
   const [selectedItem, setSelectedItem] = useState(null)
-  
- 
   const handleItemSelect = (item) => {
     setIsPressed(true);
     setSelectedItem(item);

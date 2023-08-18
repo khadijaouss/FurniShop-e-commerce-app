@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema ;
 
 const CommandeSchema = new Schema({
-
     itemId:{
         type:Object,
         required:true
